@@ -1,0 +1,12 @@
+{
+  "name": "ethel",
+  "owner": { "name": "acaprino" },
+  "description": "Claude Code plugins of the Ethel task manager",
+  "plugins": [
+    {
+      "name": "ethel",
+      "source": "./plugins/ethel",
+      "description": "Read and change your Ethel tasks from Claude Code: the connection to your server's MCP endpoint, a skill for its tools, and commands to connect, plan the day and capture tasks"
+    }
+  ]
+}

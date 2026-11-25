@@ -1,0 +1,21 @@
+{
+  "name": "ethel",
+  "description": "Read and change your Ethel tasks from Claude Code: the connection to your server's MCP endpoint, a skill for its tools, and commands to connect, plan the day and capture tasks",
+  "author": {
+    "name": "acaprino"
+  },
+  "repository": "https://github.com/acaprino/ethel-plugin",
+  "userConfig": {
+    "server_url": {
+      "type": "string",
+      "title": "Address of your Ethel server",
+      "description": "Address of your Ethel server, without a trailing slash"
+    },
+    "mcp_key": {
+      "type": "string",
+      "title": "Ethel key",
+      "description": "Key made in Ethel, Settings, Connect an assistant",
+      "sensitive": true
+    }
+  }
+}
